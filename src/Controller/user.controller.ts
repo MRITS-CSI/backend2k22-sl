@@ -25,3 +25,28 @@ export const signup = async (req: Request, res: Response) => {
 		});
 	}
 };
+
+export const updateUser = async (req: Request, res: Response) => {
+	try {
+		let updatedUser = await user.findOneAndUpdate(
+			{ teamNo: req.params.teamNo },
+			req.body
+		);
+		if (updatedUser) {
+			res.status(200).json({
+				status: 'success',
+				msg: 'User updated successfully',
+			});
+		} else {
+			res.status(400).json({
+				status: 'failed',
+				msg: 'User not found',
+			});
+		}
+	} catch (err) {
+		res.status(404).json({
+			status: 'failed',
+			msg: err,
+		});
+	}
+};

@@ -24,6 +24,10 @@ interface user {
 	teamNo: number | string;
 	players: player[];
 	password: string;
+	round1: number;
+	round2: number;
+	round1Qualified: boolean;
+	isLogged: boolean;
 	checkPass: (inputPass: string, originalPass: string) => Promise<boolean>;
 }
 const playerSchema = new Schema<player>({
@@ -60,6 +64,10 @@ const playerSchema = new Schema<player>({
 });
 
 const userSchema = new Schema<user>({
+	isLogged: {
+		type: Boolean,
+		default: false,
+	},
 	teamNo: {
 		type: Number,
 		required: true,
@@ -72,6 +80,18 @@ const userSchema = new Schema<user>({
 	password: {
 		type: String,
 		required: true,
+	},
+	round1: {
+		type: Number,
+		default: 0,
+	},
+	round1Qualified: {
+		type: Boolean,
+		default: false,
+	},
+	round2: {
+		type: Number,
+		default: 0,
 	},
 });
 

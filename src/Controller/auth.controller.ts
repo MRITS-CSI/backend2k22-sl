@@ -17,6 +17,7 @@ export const login = async (req: Request, res: Response) => {
 			return res.status(200).json({
 				status: 'success',
 				token,
+				isLogged: teamData.isLogged,
 			});
 		}
 		return res.status(401).json({
