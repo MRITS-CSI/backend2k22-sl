@@ -1,86 +1,164 @@
 {
-	"fibonacci": [
-		{
-			"answer": "missiles launched from the north front.",
-			"question": "njuvntrn taxyqgrp ecyh yhj sygsv ssccw."
-		},
-		{
-			"answer": "movement detected within the old forest.",
-			"question": "npxhrmao lhesbgqc hsomis yrt nzq gcghko."
-		},
-		{
-			"answer": "a brown fox has been observed querying a jumping lazy dog.",
-			"question": "a csqzs nbs pav msda aadomaei vetqmvou a yxekvvb oazw eng."
-		},
-		{
-			"answer": "testing encryption systems. do not respond.",
-			"question": "ufuwnvt zvfcmoguny ctxtjrc. sn bbu ftvhjal."
-		},
-		{
-			"answer": "enemy tanker has been captured.",
-			"question": "fogpd baafmu sag arqm nazozrji."
-		},
-		{
-			"answer": "requesting backup, the front-line has been ambushed.",
-			"question": "sfsxjagdvj maqjhb, sso awosy-vxms uat pthf ahocnkce."
-		},
-		{
-			"answer": "thermal signatures have been detected at the east gate.",
-			"question": "uigurat fdoqaeiqre gago wjes ioidqgfr ai wzz raao jarf."
-		},
-		{
-			"answer": "the mid-field barracks have been infiltrated.",
-			"question": "uig pnl-sdmoo paqeaojd raqj bjjx xmtvmhgawwy."
-		},
-		{
-			"answer": "we have been shot, retreat to the base camp.",
-			"question": "xf jayj jrzv vscs, eqscoao yo ymo qars pand."
-		},
-		{
-			"answer": "requesting arms in the north-camp...i repeat, requesting arms in the north-camp",
-			"question": "sfsxjagdvj acar vz sso itrym-mabo...w efdtaw, jzdczvrjmg aqlq fi luj flgfi-paaq"
-		}
-	],
-	"caesar": [
-		{
-			"answer": "does anyone have eyes on the falcon?",
-			"question": "kvlz hufvul ohcl lflz vu aol mhsjvu?"
-		},
-		{
-			"answer": "there has been a security breach in the far camp.",
-			"question": "aolyl ohz illu h zljbypaf iylhjo pu aol mhy jhtw."
-		},
-		{
-			"answer": "alfa-zulu in the air, ready to strike.",
-			"question": "hsmh-gbsb pu aol hpy, ylhkf av zayprl."
-		},
-		{
-			"answer": "mission aborted, return back to the airbase.",
-			"question": "tpzzpvu hivyalk, ylabyu ihjr av aol hpyihzl."
-		},
-		{
-			"answer": "radio check...radio check... loud and clear.",
-			"question": "yhkpv joljr...yhkpv joljr... svbk huk jslhy."
-		},
-		{
-			"answer": "bogey at your left... roger that.",
-			"question": "ivnlf ha fvby slma... yvnly aoha."
-		},
-		{
-			"answer": "target confirmed, requesting confirmation to engage.",
-			"question": "ahynla jvumpytlk, ylxblzapun jvumpythapvu av lunhnl."
-		},
-		{
-			"answer": "eagle-1 fox-2 do you copy?",
-			"question": "lhnsl-1 mve-2 kv fvb jvwf?"
-		},
-		{
-			"answer": "the bogey has been eliminated, over and out.",
-			"question": "aol ivnlf ohz illu lsptpuhalk, vcly huk vba."
-		},
-		{
-			"answer": "does any have eyes on the armed bird?",
-			"question": "kvlz huf ohcl lflz vu aol hytlk ipyk?"
-		}
-	]
+    "fibonacci": [{
+            "answer": "enemy has been spotted at the west gate, requesting backup.",
+            "question": "fogpd paf wmhy gobfspn ao yhj bohs uagf, fttmzfbdqe cabkto."
+        },
+        {
+            "answer": "requesting backup at north camp, we've been ambushed.",
+            "question": "sfsxjagdvj maqjhb as yymyh harz, ld'jr cstq aewhachb."
+        },
+        {
+            "answer": "requesting airlift at north front, 7 survivors.",
+            "question": "sfsxjagdvj atfkvrs ae xjwtm kbdmh, 7 fvfklnjea."
+        },
+        {
+            "answer": "critical system failure on alpha-6, requesting landing.",
+            "question": "dskwnkay ngvesl saukfbz tn aqura-6, gdehfgilfb yavyllh."
+        },
+        {
+            "answer": "enemy tanker has been captured.",
+            "question": "fogpd baafmu sag arqm nazozrji."
+        },
+        {
+            "answer": "requesting backup, the front-line has been ambushed.",
+            "question": "sfsxjagdvj maqjhb, sso awosy-vxms uat pthf ahocnkce."
+        },
+        {
+            "answer": "thermal signatures have been detected at the east gate.",
+            "question": "uigurat fdoqaeiqre gago wjes ioidqgfr ai wzz raao jarf."
+        },
+        {
+            "answer": "the mid-field barracks have been infiltrated.",
+            "question": "uig pnl-sdmoo paqeaojd raqj bjjx xmtvmhgawwy."
+        },
+        {
+            "answer": "we have been shot, retreat to the base camp.",
+            "question": "xf jayj jrzv vscs, eqscoao yo ymo qars pand."
+        },
+        {
+            "answer": "requesting arms in the north-camp...i repeat, requesting arms in the north-camp",
+            "question": "sfsxjagdvj acar vz sso itrym-mabo...w efdtaw, jzdczvrjmg aqlq fi luj flgfi-paaq"
+        },
+        {
+            "answer": "missile launch will occur exactly at noon on the next saturday.",
+            "question": "njuvntr gacqnv vvxk zmxzr jcamikm ag ocdq gi gpz qcys sastpaat."
+        },
+        {
+            "answer": "rations have been shipped to the front lines.",
+            "question": "saukrsa uaqm epsm fthazzi tt yrt efboh alfzf."
+        },
+        {
+            "answer": "several incoming planes detected into the western front.",
+            "question": "tfxhwat vikrxwmt bkayon ieyjmidr vohd wzz jmnwcsm fqnlq."
+        },
+        {
+            "answer": "eastern front cryptographic integrity compromised.",
+            "question": "fatvhwv smwqe qqlbszqmauhnh scsstswib ujzxmrkjrec."
+        },
+        {
+            "answer": "it appears that our enemies have managed to decipher our communications.",
+            "question": "ju arsjazf opaw ziq rzdxszx haaj wacafsq uc shudcpzu mvq cnlkriapayalce."
+        },
+        {
+            "answer": "new encryption system will be used from midnight. details will be sent via encrypted post.",
+            "question": "ofy hsketxwtcm fkreoh biqq lt tgre tgre hvlileis. ddsagin ovqd yt efah wxa usxrtkjpe bbrf."
+        },
+        {
+            "answer": "the enemy has been spotted at the southern front.",
+            "question": "uig hsmzt pav msda eozdojd ay yrt rchuvtuf aewiw."
+        },
+        {
+            "answer": "fighters have been dispatched to enemy position at the southern front.",
+            "question": "gjikymen payp pdrz ctckaycmjn in safan sgnvbdrl au shd rmrozrwf cgaog."
+        },
+        {
+            "answer": "reconaissance craft spotted above west camp.",
+            "question": "sfersaqfnavfp qqasf rayoyei agykd krth raph."
+        },
+        {
+            "answer": "missile interception system failed on north front.",
+            "question": "njuvntr dvwpfbrbstyi xyxyob eawyfr dq fjebc ippmt."
+        }
+    ],
+    "caesar": [{
+            "answer": "does anyone have eyes on the falcon?",
+            "question": "kvlz hufvul ohcl lflz vu aol mhsjvu?"
+        },
+        {
+            "answer": "there has been a security breach in the far camp.",
+            "question": "aolyl ohz illu h zljbypaf iylhjo pu aol mhy jhtw."
+        },
+        {
+            "answer": "alfa-zulu in the air, ready to strike.",
+            "question": "hsmh-gbsb pu aol hpy, ylhkf av zayprl."
+        },
+        {
+            "answer": "mission aborted, return back to the airbase.",
+            "question": "tpzzpvu hivyalk, ylabyu ihjr av aol hpyihzl."
+        },
+        {
+            "answer": "radio check...radio check... loud and clear.",
+            "question": "yhkpv joljr...yhkpv joljr... svbk huk jslhy."
+        },
+        {
+            "answer": "bogey at your left... roger that.",
+            "question": "ivnlf ha fvby slma... yvnly aoha."
+        },
+        {
+            "answer": "target confirmed, requesting confirmation to engage.",
+            "question": "ahynla jvumpytlk, ylxblzapun jvumpythapvu av lunhnl."
+        },
+        {
+            "answer": "eagle-1 fox-2 do you copy?",
+            "question": "lhnsl-1 mve-2 kv fvb jvwf?"
+        },
+        {
+            "answer": "the bogey has been eliminated, over and out.",
+            "question": "aol ivnlf ohz illu lsptpuhalk, vcly huk vba."
+        },
+        {
+            "answer": "does any have eyes on the armed bird?",
+            "question": "kvlz huf ohcl lflz vu aol hytlk ipyk?"
+        },
+        {
+            "answer": "missile interception commencing on the north front.",
+            "question": "tpzzpsl pualyjlwapvu jvttlujpun vu aol uvyao myvua."
+        },
+        {
+            "answer": "enemy craft spotted at the eastern front.",
+            "question": "lultf jyhma zwvaalk ha aol lhzalyu myvua."
+        },
+        {
+            "answer": "missile silo access codes regenerated.",
+            "question": "tpzzpsl zpsv hjjlzz jvklz ylnlulyhalk."
+        },
+        {
+            "answer": "satellite communications disrupted.",
+            "question": "zhalsspal jvttbupjhapvuz kpzybwalk."
+        },
+        {
+            "answer": "north front barricade breached, requesting backup.",
+            "question": "uvyao myvua ihyypjhkl iylhjolk, ylxblzapun ihjrbw."
+        },
+        {
+            "answer": "attempt at decrypting enemy communications has failed.",
+            "question": "haaltwa ha kljyfwapun lultf jvttbupjhapvuz ohz mhpslk."
+        },
+        {
+            "answer": "enemy attempt to decrypt communications. stay alert.",
+            "question": "lultf haaltwa av kljyfwa jvttbupjhapvuz. zahf hslya."
+        },
+        {
+            "answer": "central control to alpha-6, landing granted.",
+            "question": "jluayhs jvuayvs av hswoh-6, shukpun nyhualk."
+        },
+        {
+            "answer": "enemy ship sunk at west beach.",
+            "question": "lultf zopw zbur ha dlza ilhjo."
+        },
+        {
+            "answer": "our generals have been captured. possible communications breach.",
+            "question": "vby nlulyhsz ohcl illu jhwabylk. wvzzpisl jvttbupjhapvuz iylhjo."
+        }
+    ]
 }
