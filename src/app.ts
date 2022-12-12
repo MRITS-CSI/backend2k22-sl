@@ -5,9 +5,9 @@ import { resolve } from 'path';
 import morgan from 'morgan';
 
 const app = express();
+app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
-app.use(cors());
 
 let dirs = readdirSync(resolve(__dirname, './Router'));
 dirs.forEach(async (dir) => {
