@@ -57,7 +57,7 @@ for (let i = 0; i < 20; i++) {
 	let fib = fibEncrypt(fibQuestionArr[i].toLowerCase());
 	let cae = caesarShift(
 		caesarQuestionArr[i].toLowerCase(),
-		Math.floor(1 + Math.random() * 8)
+		Math.floor(1 + Math.random() * 4)
 	);
 	obj.fibonacci.push({
 		answer: fibQuestionArr[i].toLowerCase(),
